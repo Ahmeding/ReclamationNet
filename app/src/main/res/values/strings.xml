@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">M-HPSM+</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_liste_reclamation">Liste Reclamations</string>
+    <string name="title_activity_ajouter">Ajouter</string>
+    <string name="title_activity_modifier">Modifier</string>
+    <string name="title_activity_reclamtion">Reclamtion</string>
+    <string name="title_activity_intervention">Intervention</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

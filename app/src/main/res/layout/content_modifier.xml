@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.geek7aggart.gestion2reclamation.ModifierActivity"
+    tools:showIn="@layout/activity_modifier">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Titre"
+        android:ems="10"
+        android:id="@+id/etEditTitreRec"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditDescRec"
+        android:layout_below="@+id/etTitreRec"
+        android:layout_marginTop="45dp"
+        android:layout_alignRight="@+id/etTitreRec"
+        android:layout_alignEnd="@+id/etTitreRec"
+        android:layout_alignLeft="@+id/etTitreRec"
+        android:layout_alignStart="@+id/etTitreRec" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Date"
+        android:ems="10"
+        android:id="@+id/etEditDateRec"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/etDescRec"
+        android:layout_alignRight="@+id/etTitreRec"
+        android:layout_alignEnd="@+id/etTitreRec" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spEditEtatRec"
+        android:layout_below="@+id/etEditDateRec"
+        android:layout_alignLeft="@+id/etEditDateRec"
+        android:layout_alignStart="@+id/etEditDateRec"
+        android:layout_marginTop="53dp"
+        android:layout_alignRight="@+id/etEditDateRec"
+        android:layout_alignEnd="@+id/etEditDateRec" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:id="@+id/btnEnrgRec"
+        android:layout_below="@+id/spEtatRec"
+        android:layout_alignLeft="@+id/spEtatRec"
+        android:layout_alignStart="@+id/spEtatRec"
+        android:layout_marginTop="59dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:id="@+id/btnAnnulRec"
+        android:layout_alignTop="@+id/btnEnrgRec"
+        android:layout_alignRight="@+id/spEtatRec"
+        android:layout_alignEnd="@+id/spEtatRec" />
+</RelativeLayout>
